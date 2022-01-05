@@ -1,1 +1,53 @@
-// TODO
+.post {
+    max-width: 1120px;
+    margin: 2rem auto 0;
+
+      a {
+        display: block;
+
+      & + a {
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid var(--gray-700);
+      }
+
+      h1 {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: var(--heading);
+      }
+
+      p {
+        font-size: 1.125rem;
+        font-weight: 400;
+        margin-top: 0.50rem;
+        color: var(--body);
+      }
+
+      time {
+        display: inline-block;
+        margin-top: 1rem;
+        margin-right: 2rem;
+        font-size: 1rem;
+        color: var(--info);
+
+        svg {
+          margin-right: 0.25rem;
+        }
+      }
+
+      span {
+        font-size: 1rem;
+        color: var(--info);
+      }
+
+      button {
+      margin-top: 4rem;
+      color: var(--highlight);
+      font-size: 1.25rem;
+      font-weight: 700;
+      background: none;
+      border: none;
+    }
+  }
+}

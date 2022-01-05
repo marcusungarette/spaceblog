@@ -1,1 +1,27 @@
-// TODO
+.banner{
+  width: 100vw;
+  margin-bottom: 5rem;
+}
+
+.postTitle {
+  font-size: 3rem;
+  line-height: 3.625rem;
+}
+
+.postArticle {
+  margin-top: 4rem;
+
+  h3 {
+      font-size: 2.25rem;
+      & + p{
+          margin-top: 4rem;
+      }
+  }
+  p {
+      font-size: 1rem;
+  }
+  em {
+      font-style: normal;
+      color: var(--highlight)
+  }
+}
